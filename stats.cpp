@@ -1,6 +1,6 @@
 #include "stats.h"
 #include <numeric>
-
+#include <algorithm>
 namespace Statistics 
 {
     Stats ComputeStatistics(const std::vector<float>& numbers) {
